@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 
+// Code is updated by Samraj 
+
 public class RegisterDemo {
 	
 	public WebDriver driver;
@@ -43,6 +45,7 @@ public class RegisterDemo {
 	@Test
 	public void registerDemo() {
 		System.out.println("User is registered");
+		System.out.println("User is verified");
 	}
   }
 
